@@ -50,7 +50,9 @@ function showNotes() {
   if (notesObj.length != 0) {
     notesElm.innerHTML = html;
   } else {
-    notesElm.innerHTML = `<div class="jumbotron jumbotron-fluid bg-warning p-3 ml-5 w-75 box2">
+    notesElm.innerHTML = `<div class="jumbotron jumbotron-fluid bg-warning p-3 ml-5 w-75" style=" border: 2px rgba(12, 12, 12, 0);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.342);
+            border-radius: 5px;">
       <div class="container">
         <h2>No Notes added</h1>
         <hr>
